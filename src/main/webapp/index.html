@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sapins</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Sapins</h1>
+        <form action="dispatcher" method="post">
+            <label>Type de sapin</label>
+            <select name="typeSapin">
+                <option value="plein">Sapin plein</option>
+                <option value="vide">Sapin vide</option>
+                <option value="couche">Sapin couché</option>
+            </select>
+            <br>
+            <label>Couleur</label>
+            <select name="couleur">
+                <option value="blue">Bleu</option>
+                <option value="red">Rouge</option>
+                <option value="green">Vert</option>
+                <option value="yellow">Jaune</option>
+            </select>
+            <br>
+            <label>Hauteur du sapin</label>
+            <input type="text" name="hauteur" size="3"/>
+            <input type="submit" value="Créer"/>
+        </form>
+    </body>
+</html>
